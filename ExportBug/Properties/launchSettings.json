@@ -1,0 +1,15 @@
+﻿{
+  "profiles": {
+    "ExportBug": {
+      "commandName": "Executable",
+      "executablePath": "$(MSBuildProjectDirectory)\\..\\Server\\altv-server.exe",
+      "workingDirectory": "$(MSBuildProjectDirectory)\\..\\Server"
+    },
+    "Install-Server": {
+      "commandName": "Executable",
+      "executablePath": "npx",
+      "commandLineArgs": "-y altv-pkg d release",
+      "workingDirectory": "$(MSBuildProjectDirectory)\\..\\Server"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+[11:35:34] alt:V Server 15.0-rc14 (rc)
+[11:35:34] Starting New alt:V server on [::]:7788
+[11:35:34] Loading resource ExportBug
+[11:35:35][Warning] Found mismatching SDK methods. Please update AltV.Net NuGet

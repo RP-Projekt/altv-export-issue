@@ -1,0 +1,7 @@
+client-files = [
+    'client/*',
+    'html/*',
+]
+client-main = 'client/index.js'
+main = 'server/ExportBug.dll'
+type = 'csharp'
